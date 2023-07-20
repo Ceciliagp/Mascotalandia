@@ -1,0 +1,170 @@
+:root{
+
+
+    --blanco:#ffffff;
+    --negro:#212121;
+    --purple:#42012d;
+    --rosa:#f849af;
+    --verde:#b2c504;
+    --azul:#0783ff;
+    --agua:#08617c;
+    --fluor: #0abeaf;
+    --marino: #1b0691;
+    --pardo: #db90d8;
+    --pink: #fd46f7;
+    --gris: #b8b5b8;
+}
+
+html{
+
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: ;
+    background-image: linear-gradient(to top, var (var(--fluor)0%, var(--blanco)80%));
+    }
+
+body{
+    background-color: rgb(103, 90, 128);/*color de fondo*/
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+
+
+header{
+
+    width: 100%;
+    height: 60px;
+    
+    }
+    
+
+/*TITULO*/
+.main-title{
+
+    text-align: center;
+    font-family: 'Pangolin', cursive;
+    font-size: 6rem;
+    color: var(--blanco);
+}
+
+/*BARRA*/
+
+.menu{
+
+    background-color: var(--gris);
+}
+
+.navegacion a{
+
+
+padding: 1rem;
+text-align: center;
+color: var(--blanco);
+text-decoration: none;
+font-size: 2rem;
+font-weight: bold;
+font-family: 'Jost', sans-serif;
+
+}
+
+.navegacion a:hover{
+
+background-color: var(--pardo);
+color: var(--negro);
+
+
+}
+
+.navegacion {
+
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+
+/*ACOPLAR EL MENÚ*/
+
+@media(min-width:700px){
+    .navegacion{
+        flex-direction: row;
+    }
+}
+
+/*IMAGEN*/
+
+
+img{
+
+    display: block;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 505px;
+    
+}
+
+
+
+
+ol{
+
+    color: var(--blanco);
+    font-size: 2.5rem;
+}
+
+
+
+h3{
+
+    font-size: 3.5rem;
+    text-align: center;    
+    color: var(--blanco);
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+p {
+        color: var(--blanco); /*color de texto*/
+        font-size: 2rem;
+
+}
+
+
+.p-salud{
+
+    color: var(--blanco);
+
+}
+
+
+
+
+a{
+
+    color: var(--blanco);
+    text-decoration: none; /*Sirve para quitar la línea que se encuentra debajo del texto*/
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
