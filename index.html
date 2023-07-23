@@ -1,27 +1,19 @@
-<!DOCTYPE html><!--Declaración de archivo tipo HTML--><!--html: sirve para encapsular todo tipo de código-->
-<html lang="es"><!--Lang: sirve para establecer el lenguaje-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animalia</title>
 
-    <head><!--HEAD (metadata): sirve para la información  para el navegador-->
-    
-        <meta charset="UTF-8"> <!--CHARSET: sirve para el caracter, como por ejemplo los caracteres que se usan para el lenguaje-->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Animalía</title><!--Tittle: Sirve para poner el nombre del sitio web en la ventana-->
+            <link rel="stylesheet" href="/css/style.css">
+            
+            <link rel="stylesheet" href="/css/normalize.css">
 
-        <link rel="stylesheet" href="/style.css"><!--LINK REL: Sirve para enlazar HTML Y CSS-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
 
-                                                <!--GOOGLE FONTS-->
-
-    <link rel="preconnect" href="https://fonts.googleapis.com"><!---Link para conectar la fuente de google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
-
- 
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
-
+            
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
@@ -34,315 +26,353 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
 
+
+
+
 </head>
-
-
 <body>
-    
-<header>
-
-    <h1 class="main-title">MASCOTALANDIA</h1>
-
-
-</header>
 
 <div class="menu">
 
     <nav class="navegacion">
+        
 
-        <a href="#animales para la salud">Animales para la salud</a>
-    <a href="#animales de ayuda en el viaje">Animales de ayuda en el viaje</a>
-    <a href="#animales en peligro de extinción">Animales en peligro de extinción</a>
+        <a href="salud.html">Animales para la salud</a>
+        <a href="viaje.html">Animales en el viaje</a>
+        <a href="adopcion.html">Adopción de animales</a>
+        <a href="">Cuidado de los animales</a>
 
-    </nav>
+                </nav>
+            </div>
+        <div>
+    <br>
 
+    <header>
 
+        <h1 class="main-title">MASCOTALANDIA</h1>
 
+</header>
+
+<figure>
+    
+    <img src="/images/Foto4.jpg" alt="mascotas">
+    
+    </figure>
 </div>
 
+<br>
 
-</div>
-
-<section class="imagen-contenedor">
-    <div class="contenido-imagen">
-
-
-<img src="/images/Foto4.jpg" alt="">
-
-</div>
-
-</section>
-
-
-
-<div>
+<main class="sombra-container">
 
     <!--LISTAS-->
-    
+        
      <h3>¿QUÉ SON SON LOS ANIMALES DOMÉSTICOS ?</h3>
 
 <P>
 
-Los animales domésticos son todos aquellos que han atravesado un proceso de domesticación, o sea, 
-que han aprendido a convivir con el ser humano a un punto tal que en muchos casos les costaría 
-llevar una existencia alejada de la sociedad humana.
+    
 
 </P>
 
+</section>
+    
+
+
+
     <!--OL: Sirve para las listas ordenadas-->
 
-<h3>CONOCE ALGUNOS DE LOS ANIMALES DOMÉSTICOS</h3>
+    <h3>CONOCE ALGUNOS DE LOS ANIMALES DOMÉSTICOS</h3>
     
-<ol>
+    <ol>
+    
+    <!--Li: iten list - elemento de la lista-->
+    
+    <section class="animales">
+    <div>
+    <br>
+            <li>Perro</li>
+    <br>
 
-<!--Li: iten list - elemento de la lista-->
-
-<div>
-<br>
-        <li>Perro</li>
-<br>
-        <img src="https://cdn.onemars.net/sites/nutro_es_NkyIN_B9cV/image/200_1615974073876.jpeg"
-        width="900" height="100"  alt="">
+    <div class="iconos">
+            <img src="https://cdn.onemars.net/sites/nutro_es_NkyIN_B9cV/image/200_1615974073876.jpeg"alt="">
+    </div>
 </div>
+    
+    </section>
+    
 
-<br>
-<br>
+    <section class="animales">
+        <div>
+            
+        <br>
+                <li>Gato</li>
+        <br>
+    
+        <div class="iconos">
+            <img src="https://static.eldiario.es/clip/ab74aa95-3656-424c-8ca1-dce590aabb97_16-9-discover-aspect-ratio_default_0.jpg"
+            alt="">
 
-<div>
-        <li>Gato</li>
-<br>
-        <img src="https://static.eldiario.es/clip/ab74aa95-3656-424c-8ca1-dce590aabb97_16-9-discover-aspect-ratio_default_0.jpg"
+         <!--<p>
+
+            Hace 4000 años. Se cree que la domesticación propiamente dicha, 
+            con la aceptación de gatos en las casas como animal de compañía, 
+            se dio en Egipto cuando se valoró su papel en el control de roedores 
+            y peligrosas serpientes. El gato, entonces, empieza a formar parte de la vida de los humanos.
+            
+          </li>--> 
+
+
+
+
+        </div>
+    </div>
+        
+        </section>
+        
+        <section class="animales">
+            <div>
+                
+            <br>
+                    <li>Cuy</li>
+            <br>
+        
+            <div class="iconos">
+                <img src="https://petslife.com.mx/wp-content/uploads/2020/12/cuyo-1.jpg" 
+         alt="">
+            </div>
+        </div>
+            
+            </section>
+
+            <section class="animales">
+                <div>
+                    
+                <br>
+                        <li>Pato</li>
+                <br>
+            
+                <div class="iconos">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Anas_platyrhynchos_qtl1.jpg" 
+                    alt="">
+                </div>
+            </div>
+                
+                </section>
+
+                <section class="animales">
+                    <div>
+                        
+                    <br>
+                            <li>Hurón</li>
+                    <br>
+                
+                    <div class="iconos">
+                        <img src="https://cdn.shopify.com/s/files/1/0268/6861/files/alimentacion-hurones_grande.jpg?v=1537551434" 
+        alt="">
+                    </div>
+                </div>
+                    
+                    </section>
+                    <section class="animales">
+                        <div>
+                            
+                        <br>
+                                <li>Ratón</li>
+                        <br>
+                    
+                        <div class="iconos">
+                            <img src="https://img2.rtve.es/i/?w=1600&i=1675709740776.jpg" 
+                            width="900" height="100" alt="">
+                        </div>
+                    </div>
+                        
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Pez carpa</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://www.depeces.com/wp-content/uploads/2012/03/carpa.jpg" 
+         alt="">
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Canario doméstico</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://www.gluglupet.es/blog/los-canarios-una-pequen~a-gran-compan~ia_pic1520ni0w800h600t6m4.jpg" 
         width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Cuy</li> 
-        <img src="https://petslife.com.mx/wp-content/uploads/2020/12/cuyo-1.jpg" 
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Pez guppy o pez millón</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2015/08/guppy.jpg" 
+                                width="900" height="100" alt="">  
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Pez carpa</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://www.depeces.com/wp-content/uploads/2012/03/carpa.jpg" 
+         alt="">
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Cacatúa</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://www.animales.website/wp-content/uploads/2017/08/Cacat%C3%BAa.jpg" 
         width="900" height="100" alt="">
-</div> 
-
-<br>
-<br>
-
-<div> 
-        <li>Pato</li>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Anas_platyrhynchos_qtl1.jpg" 
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li> Guacamaya</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://www.ngenespanol.com/wp-content/uploads/2023/01/guacamaya-roja-el-ave-que-oestenta-sus-colores-en-america-latina.jpg" 
+                                width="900" height="100" alt="">
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Tortuga de tierra</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://www.anipedia.net/imagenes/tortugas-terrestres-1.jpg" 
+                                width="900" height="100" alt="">
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Periquito australiano</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://www.hogarmania.com/archivos/201710/mascotas-aves-periquito-australiano-1280x720x80xX.jpg" 
         width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-<div>
-        <li>Hurón</li>
-        <img src="https://cdn.shopify.com/s/files/1/0268/6861/files/alimentacion-hurones_grande.jpg?v=1537551434" 
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Hámster</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://s1.eestatic.com/2019/04/16/como/mascotas-ninos-remedios_caseros_391471590_120559780_1706x960.jpg" 
         width="900" height="100" alt="">
-</div>
-<br>
-<br>
-
-<div>
-        <li>Ratón</li>
-        <img src="https://img2.rtve.es/i/?w=1600&i=1675709740776.jpg" 
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Tortuga de orejas rojas</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://supermascotas.cl/wp-content/uploads/2017/04/tortuga-portada_ed46.jpg" 
         width="900" height="100" alt="">
-</div>
+                            </div>
+                        </div>
+                            
+                            </section>
+                        </section>
+                        <section class="animales">
+                            <div>
+                                
+                            <br>
+                            <li>Loro doméstico</li>
+                            <br>
+                        
+                            <div class="iconos">
+                                <img src="https://www.anipedia.net/imagenes/loros-800x375.jpg" 
+                                width="900" height="100" alt="">
+                            </div>
+                        </div>
+                            
+                            </section>
+                            <section class="animales">
+                                <div>
+                                    
+                                <br>
+                                <li>Mini pig</li>
+                                <br>
+                            
+                                <div class="iconos">
+                                    <img src="https://img.lalr.co/cms/2018/08/16181927/Mini-pig.jpg?size=sm" 
+                                    width="900" height="100" alt="">
+                                </div>
+                            </div>
+                                
+                                </section>
 
-<br>
-<br>
 
-<div>
-        <li>Pez carpa</li>
-        <img src="https://www.depeces.com/wp-content/uploads/2012/03/carpa.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Canario doméstico</li>
-        <img src="https://www.gluglupet.es/blog/los-canarios-una-pequen~a-gran-compan~ia_pic1520ni0w800h600t6m4.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Pez guppy o pez millón</li>
-        <img src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2015/08/guppy.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Cacatúa</li>
-        <img src="https://www.animales.website/wp-content/uploads/2017/08/Cacat%C3%BAa.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li> Guacamaya</li>
-        <img src="https://www.ngenespanol.com/wp-content/uploads/2023/01/guacamaya-roja-el-ave-que-oestenta-sus-colores-en-america-latina.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Tortuga de tierra</li>
-        <img src="https://www.anipedia.net/imagenes/tortugas-terrestres-1.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Periquito australiano</li>
-        <img src="https://www.hogarmania.com/archivos/201710/mascotas-aves-periquito-australiano-1280x720x80xX.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Hámster</li>
-        <img src="https://s1.eestatic.com/2019/04/16/como/mascotas-ninos-remedios_caseros_391471590_120559780_1706x960.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Tortuga de orejas rojas</li>
-        <img src="https://supermascotas.cl/wp-content/uploads/2017/04/tortuga-portada_ed46.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Loro doméstico</li>
-        <img src="https://www.anipedia.net/imagenes/loros-800x375.jpg" 
-        width="900" height="100" alt="">
-</div>
-
-<br>
-<br>
-
-<div>
-        <li>Mini pig</li>
-        <img src="https://img.lalr.co/cms/2018/08/16181927/Mini-pig.jpg?size=sm" 
-        width="900" height="100" alt="">
-</div>
 </ol>
 
 
-    </ul>
-
-
-</div>
-
-<div>
-
-    <!--Busqueda dentro del mismo documento #-->
-<a href="#animales para la salud">Animales para la salud</a>
-<a href="#animales de ayuda en el viaje">Animales de ayuda en el viaje</a>
-<a href="#animales en adopción">Animales en adopción</a>
-
-</div>
-
-<!--PÁRRAFOS-->
-
-
-<h3 id="animales para la salud">ANIMALES PARA LA SALUD</h3>
-
-
-
-
-
-<h3>¿POR QUÉ CONOCER A LOS ANIMALES?</h3>
-
-
-<p class="p-salud">  <!---Le daremos un nombre propio-->
+</main>
     
-    El amor incondicional de una mascota puede brindar más que compañía. 
-    Las mascotas también pueden disminuir el estrés, mejorar la salud del corazón e, incluso, 
-    ayudar a los niños con sus habilidades emocionales y sociales.
-
-</p>
-
-
-
-<h3>EFECTOS EN LA SALUD</h3>
-
-<p>
-La investigación sobre las interacciones humano-animal es aún relativamente nueva. Algunos estudios han mostrado efectos positivos para la salud, pero los resultados fueron mixtos.
-
-Se ha demostrado que la interacción con animales disminuye los niveles de cortisol 
-(una hormona relacionada con el estrés) y disminuye la presión arterial. 
-Otros estudios han descubierto que los animales pueden reducir la soledad, 
-aumentar los sentimientos de apoyo social y mejorar su estado de ánimo.
-
-</p>
-
-
-<h3 id="animales de ayuda en el viaje ">ANIMALES DE APOYO EMOCIONAL</h3>
-
-
-
-    <h3>¿QUÉ SON?</h3>
     
-    <p>
-    Los llamados Animales de Asistencia Emocional -Esan- o también animales de apoyo emocional, que son animales que ayudan a pacientes con trastornos psicológicos, 
-    como ansiedad, depresión, estrés postraumático y autismo. Además de perros, gatos, conejos, caballos e 
-    incluso tortugas están en esta lista, siempre que no sean notoriamente peligrosos, feroces, venenosos o venenosos.
-
-</p>
-
-
-<h3 id="animales en adopción">ANIMALES EN ADOPCIÓN</h3>
-
-
-
-    <h3>¿Por qué es mejor adoptar que comprar perros?</h3>
-    
-    <p>
-
-    Le das una segunda oportunidad
-  
-    Gran parte de los perros que están en adopción antes se encontraban es situaciones de abandono, 
-    vivían en la calle o sufrían maltrato, por lo tanto, cuando le abres la puerta de tu casa y 
-    lo haces parte de tu familia, le permites tener la vida que merece en un hogar estable lleno de amor y 
-    cuidado.
-
-</p>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
+   
 </body>
 </html>
